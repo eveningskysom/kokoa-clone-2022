@@ -12,5 +12,30 @@
   justify-content: space-between;
 }
 .nav__link {
+  position: relative;
   color: rgb(53, 54, 59);
+}
+.nav__notification {
+  background-color: #fc543e;
+  color: white;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 11px;
+  position: absolute;
+  left: 18px;
+  bottom: 16px;
+}
+.nav__dot {
+  background-color: #fc543e;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  left: 36px;
+  bottom: 28px;
 }
